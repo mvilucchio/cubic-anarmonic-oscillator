@@ -12,7 +12,7 @@ sa = 1;
 loc = 'data/E_PERT.txt';
 
 %ordine perturbativo che si vuole calcolare
-n = 15;
+n = 200;
 
 %valore del parametro perturbativo
 g = 0.0010;
@@ -40,6 +40,8 @@ for k=2:(n+1)
     %la somma dello stesso ordine perturbativo (k) parte dai coefficienti
     %del polinomio di ordine più alto (l=3k, 3k-1, 3k-2, ... 1) shiftati
     %per MatLab
+    
+    fprintf('Calcolo Ordine #%d\n', k-1);
     
     %la l, ovvero le potenze di x, partono dalla potenza zero
     for l=(3*(k-1)+1):-1:2
