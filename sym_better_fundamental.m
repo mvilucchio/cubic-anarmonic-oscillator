@@ -8,7 +8,7 @@
 stampa = 0;
 
 %save it to a file?
-sa = 1;
+sa = 0;
 loc = 'data/E_PERT.txt';
 
 %ordine perturbativo che si vuole calcolare
