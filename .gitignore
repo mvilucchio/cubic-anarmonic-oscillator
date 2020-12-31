@@ -1,2 +1,4 @@
 #MATLAB temp files
 .m~
+test*.m
+test*.m~
