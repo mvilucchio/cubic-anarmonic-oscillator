@@ -1,4 +1,7 @@
-#MATLAB temp files
+# OS Generated Files
+.DS_Store
+
+# MATLAB temp files
 .m~
 test*.m
 test*.m~
