@@ -6,3 +6,8 @@
 test*.m
 test*.m~
 test*.txt
+
+# Specific files
+plot_maker.m
+black_potential.png
+potential.png
